@@ -9,7 +9,7 @@ Hints:
 
 $(document).ready(function() {
 
-  var left_value, right_value, operation, result;
+  var left_value, right_value, operation, result, $results_box;
 
   $("#wrapper").on("keyup", function() {
     $(this).find("div").each(function(index) {
